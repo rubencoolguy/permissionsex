@@ -75,13 +75,7 @@ groups:
     build: true
     permissions:
     - '*'
-  wvavw:
-    default: false
-    prefix: '&0'
-    suffix: '&5'
-    build: true
-    permissions:
-    - '*'
+
 users:
   rubencoolguy:
     group:
@@ -91,8 +85,8 @@ users:
     - Co-Owner
   wvavw:
     group:
-    - wvavw
-    suffix: '&5'
+    - owner
+    prefix: '&0'
   Jake5x5:
     group:
     - Admin
