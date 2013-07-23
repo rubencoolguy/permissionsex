@@ -1,0 +1,107 @@
+groups:
+  Default:
+    default: true
+    prefix: '[Default] '
+    build: true
+    permissions:
+    - essentials.rules
+    - essentials.afk
+    - essentials.depth
+    - essentials.delhome
+    - essentials.help
+    - essentials.home
+    - essentials.kit
+    - essentials.kit.tools
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.msg
+    - essentials.r
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.signs.use.disposal
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+  Helper:
+    default: false
+    prefix: '&6[&eHelper&6]&7 '
+    inheritance:
+    - Default
+    build: true
+    permissions:
+    - essentials.help
+    - essentials.rules
+    - essentials.motd
+  Mod:
+    default: false
+    prefix: '&1[&9Mod&1]&f '
+    inheritance:
+    - VIP
+    - Member
+    - Guest
+    build: true
+    permissions:
+    - essentials.sethome.multiple.staff
+    - essentials.helpop
+    - essentials.home.others
+    - essentials.nick
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.gamemode
+    - essentials.god
+    - essentials.give
+  Admin:
+    default: false
+    prefix: '&9[&bAdmin&9]&f '
+    inheritance:
+    - Mod
+    build: true
+    permissions:
+    - '*'
+  Co-Owner:
+    default: false
+    prefix: '&0[&6Co-Owner&0]&f '
+    build: true
+    permissions:
+    - '*'
+  Owner:
+    default: false
+    prefix: '&6[&4Owner&6]&f '
+    build: true
+    permissions:
+    - '*'
+  wvavw:
+    default: false
+    prefix: '&0'
+    suffix: '&5'
+    build: true
+    permissions:
+    - '*'
+users:
+  rubencoolguy:
+    group:
+    - Owner
+  conko513:
+    group:
+    - Co-Owner
+  wvavw:
+    group:
+    - wvavw
+    suffix: '&5'
+  Jake5x5:
+    group:
+    - Admin
+  awesome338:
+    group:
+    - Co-Owner
+  CaptnCactus:
+    group:
+    - Mod
+  Shadows_of_Fire:
+    group:
+    - Admin
